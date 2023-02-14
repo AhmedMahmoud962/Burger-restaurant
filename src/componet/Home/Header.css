@@ -1,0 +1,66 @@
+header
+{
+  background:url(../../imgs/ba.jpg) center no-repeat;
+  background-size:cover;
+  width:100%;
+  text-align:left;
+  height: 450px;;
+  overflow:hidden;
+  max-width: 100%;
+}
+
+header h2,p 
+{
+  color:#fff !important;
+}
+header h2
+{
+  margin-top:40px;
+  font-family: 'Tajawal', sans-serif;
+  font-size: 55px;
+  line-height: 50px;
+  font-weight: bolder;
+  width:80%;
+  /* color: #ab3550 !important; */
+
+}
+header p 
+{
+  font-family: 'Tajawal', sans-serif;
+margin: 15px 0;
+}
+header button
+{
+  width: 140px;
+  height: 40px;
+  box-sizing: border-box;
+  border:1px solid #ab3550;
+  background-color: #ab3550;
+  color: #fff;
+  text-align: center;
+  border-radius: 3px;
+  margin:20px 10px 20px 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all .7s;
+}
+
+header .lastbtn 
+{
+  background-color: #fff;
+  color:#000;
+  border:none;
+}
+
+header .firstbtn:hover
+{
+background-color: #fff;
+color: black;
+border:none;
+}
+header .lastbtn:hover
+{
+background-color: #ab3550;
+color: #fff;
+}
+

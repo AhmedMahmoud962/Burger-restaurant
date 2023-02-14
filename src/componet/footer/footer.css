@@ -1,0 +1,111 @@
+.footer
+{
+  margin-top: 20px;
+}
+.containerr
+{
+   width:1170px ;
+    margin: auto;
+  
+}
+.roww 
+{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+ul{
+    list-style: none;
+}
+
+.footer 
+{
+    display: flex;
+    background-color:#520216 ;
+    color: #fff;
+    padding: 70px 0;
+}
+.footer-col
+{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h2 
+{
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h2::before 
+{
+    content: "";
+    position:absolute;
+    left:0;
+    bottom:-10px;
+    background-color: #209ab5;
+    height: 2px;
+    box-sizing: border-box;
+    width:100px;
+}
+.footer-col ul li:not(:last-child)
+{
+    margin-bottom: 10px;
+}
+.footer ul li a
+{
+  color: #fff;
+    font-size: 16px;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-weight: 300;
+    display: block;
+    transition:all .7s;
+}
+.footer ul li a:hover
+{
+    padding-left:8px;
+    color: #fff;
+}
+
+.footer-col .social-links a
+{
+    height: 40px;
+    width: 40px;
+    display:inline-block;
+    background-color: rgb(255,255,255,0.2) !important;
+    margin:0 10px;
+    text-align:center;
+    line-height:40px;
+    border-radius: 50%;
+    color: #fff !important;
+    transition: all 1s;
+}
+.footer-col .social-links a:hover
+{
+    color: #24262b;
+    background-color:#fff;
+}
+
+/* resposive */
+@media(max-width:770px) {
+    .footer-col
+    {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+}
+@media(max-width:540px) {
+    .footer-col
+    {
+        width: 100%;
+      margin-left: 40%;
+    }
+
+}
+
+/* end footer */
