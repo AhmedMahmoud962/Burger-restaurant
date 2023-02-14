@@ -4,10 +4,10 @@ import team3 from "./imgs/team3.jpg";
 import team4 from "./imgs/team4.jpg";
 
 const Team=[
-  {img:team5, name:"Ahmed Mahmoud",jop:"full-Stack",button:"view more"},
-  {img:team2, name:"Ahmed Mahmoud",jop:"full-Stack",button:"view more"},
-  {img:team3, name:"Ahmed Mahmoud",jop:"full-Stack",button:"view more"},
-  {img:team4, name:"Ahmed Mahmoud",jop:"full-Stack",button:"view more"},
+  {img:team5, name:"Ahmed Mahmoud",jop:"Frontend Developer",button:"view more"},
+  {img:team2, name:"Ahmed Mahmoud",jop:"Frontend Developer",button:"view more"},
+  {img:team3, name:"Ahmed Mahmoud",jop:"Backend Developer",button:"view more"},
+  {img:team4, name:"Ahmed Mahmoud",jop:"full-Stack Developer",button:"view more"},
 ]
 
 export default Team;
