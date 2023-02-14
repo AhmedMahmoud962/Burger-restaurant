@@ -1,0 +1,38 @@
+nav 
+{
+  background-color:#fff;
+width:100%;
+height:auto;
+max-width:100%;
+border-radius:0;  
+
+}
+
+nav a 
+{
+  /* color:#ab3550 !important; */
+  color:#222 !important;
+  font-size:15px;
+  text-transform:uppercase;
+  letter-spacing:1px;
+}
+
+.logo
+{
+  width:220px;
+  height: 60px;
+}
+nav #number
+{
+  border: 2px solid #ab3550;
+  background-color:#ab3550;
+  color:#fff !important;
+  box-sizing: border-box;
+  transition: all 0.5s;
+}
+nav #number:hover
+{
+  background-color:transparent;
+  color:#ab3550 !important;
+
+}
