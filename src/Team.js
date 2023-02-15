@@ -7,7 +7,7 @@ const Team=[
   {img:team5, name:"Ahmed Mahmoud",jop:"Frontend Developer",button:"view more"},
   {img:team2, name:"Ahmed Mahmoud",jop:"Frontend Developer",button:"view more"},
   {img:team3, name:"Ahmed Mahmoud",jop:"Backend Developer",button:"view more"},
-  {img:team4, name:"Ahmed Mahmoud",jop:"fullStack Developer",button:"view more"},
+  {img:team4, name:"Ahmed Mahmoud",jop:"FullStack Developer",button:"view more"},
 ]
 
 export default Team;
